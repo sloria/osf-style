@@ -80,7 +80,7 @@
                 <h3 id="container" >Container</h3>
                 <div class="row">
                     <div class="col-sm-9">
-                        <p> OSF uses a fixed container layout as opposed to fluid. This makes sure that the width does not continue to adjust past 1200px width. Your documents should be wrapper inside a div with class "container".  </p>
+                        <p> OSF uses a fixed container layout as opposed to fluid. This makes sure that the width does not continue to adjust past 1200px width. Your documents should be wrapper inside a div with class "container."  </p>
 <pre>
 <code class="language-markup">
     &lt;div class="container"&gt;
@@ -90,7 +90,7 @@
 </pre>
                     </div>
                     <div class="col-sm-3">
-                        <a href="http://getbootstrap.com/css/#overview" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/css/#overview" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                     </div>
                 </div>
 
@@ -116,7 +116,7 @@
 </code>
 </pre>
                         <div class="m-t-md m-b-md p-md osf-box-lt">
-                            <h4 class="text-success"> How to Use The Grid:</h4>
+                            <h4 class="text-success"> How to use the grid:</h4>
                             <ul>
                                 <li>Grid columns need to add up to 12.</li>
                                 <li>Each total of 12 should be inside its own "row" div.</li>
@@ -129,10 +129,10 @@
 
                     </div>
                     <div class="col-sm-3">
-                        <a href="http://getbootstrap.com/css/#grid" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/css/#grid" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                     </div>
                 </div>
-                <h3 id="layout-helper" > Layout Helper CSS Classes</h3>
+                <h3 id="layout-helper" > Layout helper CSS classes</h3>
                 <div class="row">
                     <div class="col-xs-12">
                         <p> For <b>margin</b> and <b>padding</b> OSF has helper classes that provide a quick method to add granular layout without having to define these distances for every item. </p>
@@ -204,7 +204,7 @@
                         <p> <span class="m-r-lg">p. </span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sollicitudin ipsum iaculis lectus blandit tempus. Donec tempus ornare erat id fermentum. Nullam tempor viverra arcu vel pellentesque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum gravida velit tellus, eget facilisis sapien interdum vel. Nullam a dolor ante. Nunc ultrices finibus turpis quis interdum. Aliquam vel velit tincidunt, sagittis magna in, ultrices sem. Nulla tempus non ex eu dignissim. Sed accumsan blandit cursus. Vestibulum vulputate erat nibh, a accumsan nibh efficitur ac. Etiam tincidunt turpis nibh, et suscipit purus egestas at. Nullam quis ultrices ante. Praesent sapien urna, pulvinar varius mauris a, pulvinar ullamcorper velit. </p>
 
                         <div class="m-t-md m-b-md p-md osf-box-lt">
-                            <h4 class="text-success"> How to Use Heading Tags:</h4>
+                            <h4 class="text-success"> How to use heading tags:</h4>
                             <ul>
                                 <li> h1 tag should be used only once in a page for the most relevant title for the entire page. </li>
                                 <li> You should use heading tags for sizing your text. Do NOT change font-size of text. </li>
@@ -215,28 +215,27 @@
                     </div>
                 </div>
 
-                <h3 id="font-weight" > Typography Helper Classes</h3>
+                <h3 id="font-weight" > Typography helper classes</h3>
                 <div class="row">
                     <div class="col-xs-12">
-                        <h4> Font Weight Helpers</h4>
+                        <h4> Font weight helpers</h4>
                         <p> Font weight is how thick a font is. These weight differences are not available for all fonts, especially web fonts will have few of them but the default Bootstrap font for typography includes them.</p>
                         <div class="row">
                             <div class="col-xs-9">
-                                <p class="f-w-xs">XS Thickness</p>
-                                <p class="f-w-sm">SM Thickness</p>
-                                <p class="f-w-md">MD Thickness</p>
-                                <p class="f-w-lg">LG Thickness</p>
-                                <p class="f-w-xl">XL Thickness</p>
+                                <p class="f-w-xs">XS thickness</p>
+                                <p class="f-w-sm">SM thickness</p>
+                                <p class="f-w-md">MD thickness</p>
+                                <p class="f-w-lg">LG thickness</p>
+                                <p class="f-w-xl">XL thickness</p>
                             </div>
                             <div class="col-xs-3">
                                 <a href="http://jsfiddle.net/vsk2gduo/18/" class="btn btn-sm btn-primary pull-right">Edit in JsFiddle</a>
                             </div>
                         </div>
-
-                        <h4> Font Size Helpers</h4>
+                        <h4> Font size helpers</h4>
                         <p>Sometimes you will need a relatively slightly smaller or slightly bigger size for fonts. Use them in conjunction with "text-muted" and other helpers to achieve your desired effects. </p>
-                        <p>Regular Text <span class="text-smaller text-muted">Smaller text</span></p>
-                        <p>Regular Text <span class="text-bigger text-muted">Bigger text</span></p>
+                        <p>Regular text <span class="text-smaller text-muted">Smaller text</span></p>
+                        <p>Regular text <span class="text-bigger text-muted">Bigger text</span></p>
 
 <pre>
 <code class="language-markup">
@@ -249,7 +248,24 @@
 &lt;p&gt;Regular Text &lt;span class="text-bigger text-muted"&gt;Bigger text&lt;/span&gt;&lt;/p&gt;
 </code>
 </pre>
+                        <h3 id="wordBreak" > Word break</h3>
+                        <div class="row m-b-xl">
+                            <div class="col-xs-12">
+                                <p> One of the most common testing scenarios is to use single long words in layout elements. Most often these words will break the layout and can have usability consequences such as hiding buttons or other content. Most text is automatically applied word break rule sets including "p, em, b, a, td" tags. You can also use an separate class ".break-word"</p>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h4>Without .break-word </h4>
+                                        <div style="width: 150px" class="osf-box-lt p-md">supercalifragilisticexpialidocious</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h4>With .break-word </h4>
+                                        <div style="width: 150px" class="osf-box-lt p-md break-word">supercalifragilisticexpialidocious</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <hr />
+
                         <h4 id="other-text" >Other text options</h4>
                         <div class="row">
                             <div class="col-xs-9">
@@ -257,7 +273,7 @@
                                 <p> For instance, you can use different colored text with existing css classes.</p>
                             </div>
                             <div class="col-xs-3">
-                                <a href="http://getbootstrap.com/css/#type" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                                <a href="http://getbootstrap.com/css/#type" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
 
                             </div>
                         </div>
@@ -292,9 +308,9 @@
                 </div>
 
                 <hr>
-                <h4 id="inline"> Inline Edits </h4>
+                <h4 id="inline"> Inline edits </h4>
                 <p>You can provide users the opportunity to edit content "in place" meaning that the content switches to input elements to make changes and returns back to being the regular content when either changes are saved or dismissed. Use the "osf-editable" class for items that are editable  inline.</p>
-                <p> Name:  <span class="osf-editable"> Osf Project Name </span></p>
+                <p> Name:  <span class="osf-editable"> OSF Project Name </span></p>
 
                 <pre>
 <code class="language-markup">
@@ -306,10 +322,10 @@
                     <h4>When to use inline editing</h4>
                     <ul>
                         <li>USE if it's an isolated edit not part of a form.</li>
-                        <li>DO NOT Use within a form, it adds no value.</li>
+                        <li>DO NOT use within a form, it adds no value.</li>
                         <li>USE if the text being edited is part of a regular size text such as paragraph.</li>
                         <li>USE if the text being edited is not more than a few words (i.e. Don't edit long text this way)</li>
-                        <li>USE if the edit is not critical (can be quickly chaned again).</li>
+                        <li>USE if the edit is not critical (can be quickly changed again).</li>
                     </ul>
                     <p class="text-warning text-center"><b>If you use inline edits make sure you use them in a similar way across the site!</b></p>
                 </div>
@@ -326,7 +342,7 @@
                         </div>
                     </div>
                     <div class="col-sm-3">
-                        <h4>OSF Blue</h4>
+                        <h4>OSF blue</h4>
                         <p>#204762</p>
                         <p>.bg-color-blue</p>
                     </div>
@@ -428,7 +444,7 @@
                         </ul>
                     </div>
                 </div>
-                <h2 id="bootstrap-colors" > Understanding Bootstrap Colors</h2>
+                <h2 id="bootstrap-colors" > Understanding Bootstrap colors</h2>
                 <hr>
                 <div class="row">
                     <div class="col-sm-3">
@@ -463,8 +479,6 @@
                         <ul>
                             <li>Help and info buttons and texts</li>
                             <li>Settings, options and details</li>
-                            <li>Help and info buttons and texts</li>
-                            <li>Messages which indicate a successful action, such as server connection, or successful save</li>
                         </ul>
                     </div>
                 </div>
@@ -582,14 +596,14 @@
                                     <tr>
                                         <th>Action</th>
                                         <th>Icon to use</th>
-                                        <th>FA Class</th>
+                                        <th>FA class</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>Toggling show/hide of content</td>
-                                        <td><i class="fa fa-caret-right"></i> <i class="fa fa-caret-down"></i> </td>
-                                        <td>fa-caret-right, fa-caret-down</td>
+                                        <td>Toggling show/hide of content with up and down</td>
+                                        <td><i class="fa fa-angle-up"></i> <i class="fa fa-angle-down"></i> </td>
+                                        <td>fa-angle-right, fa-angle-down</td>
                                     </tr>
                                     <tr>
                                         <td>Deleting tabular or repeating data</td>
@@ -608,6 +622,7 @@
                                     </tr>
                                     </tbody>
                                 </table>
+                                <p>There is no standardization beyond these icons. Use of icons with or without buttons is very contexual to what the action is. Developers should err on the side of not using icons if in doubt and should not use icons outside their conventions (i.e. Link icons, save icons etc.) </p>
                             </div>
 
                             <div class="osf-box-lt p-lg">
@@ -626,12 +641,14 @@
                                         <h5 class="text-danger">NO if:</h5>
                                         <ul>
                                             <li>There is a stand alone button</li>
-                                            <li>Button text is not general enough to be natural. I.e. Make Public </li>
-                                            <li>The icon is not intuitive for that task i.e. <button class="btn btn-sm btn-default"><i class="fa fa-globe"></i> Open Dropbox </button></li>
+                                            <li>Button text is not general enough to be natural (e.g. Make public) </li>
+                                            <li>The icon is not intuitive for that task, e.g. <button class="btn btn-sm btn-default"><i class="fa fa-globe"></i> Open Dropbox </button></li>
 
                                         </ul>
                                     </div>
                                 </div>
+                                <p><strong> If icons are use in buttons they should always be on the LEFT side </strong></p>
+
                             </div>
 
                         </div>
@@ -691,56 +708,56 @@
                                 <tr>
                                     <td>Non modifying changes:</td>
                                     <td>
-                                        <button type="button" title="Cancel an Action"
+                                        <button type="button" title="Cancel an action"
                                                 class="btn btn-default">Cancel</button>
-                                        <button type="button" title="Close a Modal"
+                                        <button type="button" title="Close a modal"
                                                 class="btn btn-default">Close</button>
-                                        <button type="button" title="Go Back to a Previous Window"
+                                        <button type="button" title="Go back to a previous window"
                                                 class="btn btn-default">Back</button>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Saving and Adding</td>
+                                    <td>Saving and adding</td>
                                     <td>
-                                        <button type="button" title="Save Something - Don't Use Submit"
+                                        <button type="button" title="Save aomething - Don't use submit"
                                                 class="btn btn-success">Save</button>
-                                        <button type="button" title="Upload Something Sciency"
+                                        <button type="button" title="Upload something sciency"
                                                 class="btn btn-success">Upload</button>
-                                        <button type="button" title="Register Something Sciency"
-                                                class="btn btn-success">New Registration</button>
-                                        <button type="button" title="Add a User"
-                                                class="btn btn-success">Add User</button>
+                                        <button type="button" title="Add a user"
+                                                class="btn btn-success">Add user</button>
+                                        <button type="button" title="Apply"
+                                                class="btn btn-success">Apply</button>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>Removal</td>
                                     <td>
-                                        <button type="button" title="Delete An Item - Don't use Remove"
+                                        <button type="button" title="Delete an item - Don't use remove"
                                                 class="btn btn-danger">Delete</button>
-                                        <button type="button" title="Delete Multiple Items"
-                                                class="btn btn-danger">Delete All</button>
+                                        <button type="button" title="Delete multiple items"
+                                                class="btn btn-danger">Delete all</button>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Information and Settings</td>
+                                    <td>Information and settings</td>
                                     <td>
-                                        <button type="button" title="Access Settings"
+                                        <button type="button" title="Access settings"
                                                 class="btn btn-info">Settings</button>
-                                        <button type="button" title="Give Additional Information"
+                                        <button type="button" title="Give additional information"
                                                 class="btn btn-info"><i class="fa fa-info"></i> </button>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>Other Call to Action</td>
+                                    <td>Other call to action</td>
                                     <td>
-                                        <button type="button" title="Create an Account"
-                                                class="btn btn-primary">Create an Account</button>
-                                        <button type="button" title="Download Some Science"
+                                        <button type="button" title="Create an account"
+                                                class="btn btn-primary">Create an account</button>
+                                        <button type="button" title="Download some science"
                                                 class="btn btn-primary">Download</button>
-                                        <button type="button" title="Open Something"
+                                        <button type="button" title="Open something"
                                                 class="btn btn-primary">Open</button>
-                                        <button type="button" title="Auto Fill"
-                                                class="btn btn-primary">Auto Fill</button>
+                                        <button type="button" title="Auto fill"
+                                                class="btn btn-primary">Auto fill</button>
 
                                     </td>
                                 </tr>
@@ -748,10 +765,10 @@
                             </table>
                         </div>
 
-                        <h4 class="m-t-lg">Guidelines for Button Text</h4>
+                        <h4 class="m-t-lg">Guidelines for button text</h4>
                         <ul>
                             <li>Do not use OK, even if it makes sense with the question being asked. People skim to the button often and OK doesn't help understand the meaning quickly. </li>
-                            <li>Buttons should have verbs and should start with verbs, e.g. "Make Public" instead of "Public" alone or "Visibility Setting".</li>
+                            <li>Buttons should have verbs and should start with verbs, e.g. "Make public" instead of "Public" alone or "Visibility Setting".</li>
                             <li> The button does not need to repeat the header, e.g. "Add" is enough for the submit button for a modal that says "Add Contributors".</li>
                             <li> Be deliberate in your use of Cancel vs Close. Cancel is supposed to undo any potential visual or data change or to denote change of intention by the user (e.g. Don't Save). Close simply removes an element from view. Modals need a Close button and forms need a Cancel button. If the form has brought the user to a different page Cancel should bring them back to where they were. </li>
                             <li>Back should be used in an OSF guided activity, where the user has to do a series of steps, and wants to return to a previous step.  For example, signing up for the Preregister Prize.  If the path is user driven, for example, creating a project, use the Cancel button.</li>
@@ -778,7 +795,7 @@
                                 <td>Save</td>
                             </tr>
                             <tr>
-                                <td>Deleting an Item</td>
+                                <td>Deleting an item</td>
                                 <td>Delete</td>
                             </tr>
                             <tr>
@@ -789,7 +806,7 @@
                         </table>
                     </div>
                     <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/css/#buttons" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/css/#buttons" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
 
                         <a href="http://jsfiddle.net/vsk2gduo/15/" class="btn btn-sm btn-primary pull-right m-t-xl"> Edit in JsFiddle </a>
                     </div>
@@ -814,14 +831,15 @@
                             <a href="#">Lorem ipsum</a> dolor sit amet.
                         </div>
                         <div class="example p-md m-b-md ">
-                            <h4> With solid line. </h4>
+                            <h4> With solid line </h4>
                             <a class="link-solid" href="#">Lorem ipsum</a> dolor sit amet.
                         </div>
                         <div class="example p-md m-b-md">
-                            <h4> With dashed line. </h4>
+                            <h4> With dashed line </h4>
                             <a class="link-dashed" href="#">Lorem ipsum</a> dolor sit amet.
                         </div>
-
+                        <h4> When to Use link styles?</h4>
+                        <p>These three styles are not specific to certain use cases. In regular circumstances use the regular link. The alternatives are provided in case for design or development reasons an underline is required </p>
                     </div>
                 </div>
 
@@ -836,14 +854,14 @@
 
 
                 <hr />
-                <h3 id="panels"> Panels/Widgets </h3>
+                <h3 id="panels"> Panels/widgets </h3>
                 <div class="row">
                     <div class="col-xs-9">
                         <p> Panels are boxes that have special styling for header, body and footer. They are often used as widgets. We use bootstrap style with minor overrides to flatten borders.  </p>
                         <p> <b> Tip:</b> You can use the bootstrap colors for the panels by adding panel type such as "panel-info" as class. Footer is not going to change color. </p>
                     </div>
                     <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/components/#style.html" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/components/#style.html" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                         <a href="http://jsfiddle.net/vsk2gduo/13/" class="btn btn-sm btn-primary pull-right m-t-xl"> Edit in JsFiddle </a>
                     </div>
                 </div>
@@ -852,7 +870,7 @@
                     <div class="col-sm-6">
                         <div class="panel panel-default">
                             <div class="panel-heading clearfix">
-                                <h3 class="panel-title">Panel Title</h3>
+                                <h3 class="panel-title">Panel title</h3>
                                 <div class="pull-right">
                                     <a href="/abrs9/wiki/" class="btn btn-sm btn-default"> Button </a>
                                 </div>
@@ -907,7 +925,7 @@
                 <div class="row">
                     <div class="col-xs-9">
                         <p> OSF Uses modals that are based on the bootstrap versions but modified to be more flat and similar to the Google Material design modals. Use the code as shown below.   </p>
-                        <p><button class="btn btn-info" data-toggle="modal" data-target="#myModal">Click to Open Modal </button></p>
+                        <p><button class="btn btn-info" data-toggle="modal" data-target="#myModal">Click to open modal </button></p>
                         <!-- Modal -->
                         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
@@ -921,14 +939,14 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn btn-success">Save changes</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/javascript/#modals" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/javascript/#modals" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                     </div>
                 </div>
 
@@ -936,7 +954,7 @@
                     <div class="col-sm-12">
                         <pre>
     <code class="language-markup">
-&lt;p&gt;&lt;button class="btn btn-info" data-toggle="modal" data-target="#myModal"&gt;Click to Open Modal &lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;button class="btn btn-info" data-toggle="modal" data-target="#myModal"&gt;Click to open modal &lt;/button&gt;&lt;/p&gt;
 
 &lt;!-- Modal --&gt;
 &lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"&gt;
@@ -960,10 +978,10 @@
                         </pre>
 
                         <div class="osf-box-lt p-lg ">
-                            <h4> Styling modals for alert types.</h4>
+                            <h4> Styling modals for alert types</h4>
                             <p> Sometimes you may want to adjust modals to show that the message contained is a significant delete and not just information. To this effect you can use the alert colors that were discussed in the <a href="#alerts">alert section</a> of this page. To use alert colors in the header add the pertinent alert-color class i.e. "alert-danger" as shown below:</p>
-                            <p><button class="btn btn-danger" data-toggle="modal" data-target="#dangerModal">Delete Related Modal </button></p>
-                            <p>Use only <span class="text-danger"> danger</span>, <span class="text-warning"> warning</span> and <span class="text-info"> info</span> colors, do not use primary or success. Use colors as they relate to the operation. </p>
+                            <p><button class="btn btn-danger" data-toggle="modal" data-target="#dangerModal">Delete related modal </button></p>
+                            <p>Use only <span class="text-danger"> danger</span>, <span class="text-warning"> warning</span>, and <span class="text-info"> info</span> colors, do not use primary or success. Use colors as they relate to the operation. </p>
                             <div class="modal fade" id="dangerModal" tabindex="-1" role="dialog" aria-labelledby="dangerModalLabel" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
@@ -1043,7 +1061,7 @@
 
                     </div>
                     <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/components/#style.html" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/components/#style.html" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                     </div>
                 </div>
 
@@ -1092,7 +1110,7 @@
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
-                                        <a class="navbar-brand" href="/"><img src="img/cos-white2.png" class="osf-navbar-logo" width="27" alt="COS logo"/> OSF</a>
+                                        <a class="navbar-brand" href="/"><div class="osf-navbar-logo"></div>OSF</a>
                                     </div>
                                     <div id="navbar" class="navbar-collapse collapse navbar-right">
                                         <ul class="nav navbar-nav">
@@ -1162,7 +1180,7 @@
                 &lt;span class="icon-bar"&gt;&lt;/span&gt;
                 &lt;span class="icon-bar"&gt;&lt;/span&gt;
             &lt;/button&gt;
-            &lt;a class="navbar-brand" href="/"&gt;&lt;img src="img/cos-white2.png" class="osf-navbar-logo" width="27" alt="COS logo"/&gt; OSF&lt;/a&gt;
+            &lt;a class="navbar-brand" href="/"&gt;&lt;div class=&quot;osf-navbar-logo&quot;&gt;&lt;/div&gt;OSF&lt;/a&gt;
         &lt;/div&gt;
         &lt;div id="navbar" class="navbar-collapse collapse navbar-right"&gt;
             &lt;ul class="nav navbar-nav"&gt;
@@ -1217,7 +1235,7 @@
                     </div>
                 </div>
 
-                <h3> Project Navigation </h3>
+                <h3> Project navigation </h3>
                 <div class="row" id="project">
                     <div class="col-xs-12">
                         <div class="clearfix">
@@ -1310,7 +1328,7 @@
                         <p> Your tabs will not be including margin and padding out of the box within the divs themselves. You can use helper classes or define contents as required. </p>
                     </div>
                     <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/javascript/#tabs" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/javascript/#tabs" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                     </div>
                 </div>
                 <div clas="row">
@@ -1393,29 +1411,26 @@
                 </div>
 
                 <hr />
-                <h3 id="loader"> OSF Loader </h3>
+                <h3 id="loader"> OSF loader </h3>
                 <div class="row">
-                    <div class="col-xs-12 m-b-lg">
+                    <div class="col-xs-12 m-b-md">
                         <p> OSF Uses COS logo as a loader gif as shown below in different sizes.   </p>
-                        <div class="logo-spin logo-xs m-r-lg"><img src="img/logo_spin.png" alt="loader"></div>
-                        <div class="logo-spin logo-sm m-r-lg"><img src="img/logo_spin.png" alt="loader"></div>
-                        <div class="logo-spin logo-md m-r-lg"><img src="img/logo_spin.png" alt="loader"></div>
-                        <div class="logo-spin logo-lg m-r-lg"><img src="img/logo_spin.png" alt="loader"></div>
-                        <div class="logo-spin logo-xl m-r-lg"><img src="img/logo_spin.png" alt="loader"></div>
+                        <div class="logo-spin logo-xs m-r-lg"></div>
+                        <div class="logo-spin logo-sm m-r-lg"></div>
+                        <div class="logo-spin logo-md m-r-lg"></div>
+                        <div class="logo-spin logo-lg m-r-lg"></div>
+                        <div class="logo-spin logo-xl m-r-lg"></div>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm-12">
-                        <pre>
-    <code class="language-markup">
-&lt;div class="logo-spin logo-xs"&gt;&lt;img src="img/logo_spin.png" alt="loader"&gt;&lt;/div&gt;
-&lt;div class="logo-spin logo-sm"&gt;&lt;img src="img/logo_spin.png" alt="loader"&gt;&lt;/div&gt;
-&lt;div class="logo-spin logo-md"&gt;&lt;img src="img/logo_spin.png" alt="loader"&gt;&lt;/div&gt;
-&lt;div class="logo-spin logo-lg"&gt;&lt;img src="img/logo_spin.png" alt="loader"&gt;&lt;/div&gt;
-&lt;div class="logo-spin logo-xl"&gt;&lt;img src="img/logo_spin.png" alt="loader"&gt;&lt;/div&gt;
-    </code>
-                        </pre>
+<pre><code class="language-markup">&lt;div class=&quot;logo-spin logo-xs m-r-lg&quot; &gt;&lt;/div&gt;
+&lt;div class=&quot;logo-spin logo-sm m-r-lg&quot; &gt;&lt;/div&gt;
+&lt;div class=&quot;logo-spin logo-md m-r-lg&quot; &gt;&lt;/div&gt;
+&lt;div class=&quot;logo-spin logo-lg m-r-lg&quot; &gt;&lt;/div&gt;
+&lt;div class=&quot;logo-spin logo-xl m-r-lg&quot; &gt;&lt;/div&gt;
+</code></pre>
 
                         <div class="m-t-md m-b-md p-md osf-box-lt">
                             <h4 class="text-success"> Tips:</h4>
@@ -1430,7 +1445,7 @@
                 </div>
 
                 <hr />
-                <h3 id="progress">Progress Bars</h3>
+                <h3 id="progress">Progress bars</h3>
                 <div class="row">
                     <div class="col-xs-12 m-b-lg">
                         <div class="row">
@@ -1535,9 +1550,9 @@
                             </div>
                         </div>
              
-                        <h4> Default Well</h4>
+                        <h4> Default well</h4>
                         <div class="well well-sm">Small well... Wells have sizes too like well-sm</div>
-                        <h4> OSF Containers </h4>
+                        <h4> OSF containers </h4>
                         <div class="m-b-md p-md osf-box">Flat box, neutral background.</div>
                         <div class="m-b-md p-md osf-box-lt">Flat box, light background.</div>
                         <div class="m-b-md p-md osf-box-dk">Flat box, dark background.</div>
@@ -1580,13 +1595,13 @@
 
                     </div>
                 </div>
-                <h3 id="box-shadow"> Box Shadow </h3>
+                <h3 id="box-shadow"> Box shadow </h3>
                 <div class="row">
                     <div class="col-xs-12 m-b-lg">
                         <div class="row">
                             <div class="col-xs-9">
                                 <p> Box shadow is used to create shadow for osf box. It will make the box more obvious to the users. We offer five kinds of shadows to meet the needs of different settings</p>
-                                <h4> OSF Box Shadow demo for white color box </h4>
+                                <h4> OSF box shadow demo for white color box </h4>
                             </div>
                             <div class="col-xs-3">
                                 <a href="http://jsfiddle.net/vsk2gduo/12/" class="btn btn-sm btn-primary pull-right"> Edit in JsFiddle </a>
@@ -1599,15 +1614,15 @@
                         <div class="m-b-lg p-md osf-box box-shadow-lg">Flat box, neutral background with box-shadow-lg </div>
                         <div class="m-b-lg p-md osf-box box-shadow-xl">Flat box, neutral background with box-shadow-xl </div>
 
-                        <h4> OSF Box Shadow demo for light color box </h4>
+                        <h4> OSF box shadow demo for light color box </h4>
                         <div class="m-b-lg p-md osf-box-lt box-shadow-sm">Flat box, light background with box-shadow-sm</div>
                         <div class="m-b-lg p-md osf-box-lt box-shadow-md">Flat box, light background with box-shadow-md</div>
 
-                        <h4> OSF Box Shadow demo for dark color box </h4>
+                        <h4> OSF box shadow demo for dark color box </h4>
                         <div class="m-b-lg p-md osf-box-dk box-shadow-lg">Flat box, dark background with box-shadow-lg </div>
                         <div class="m-b-lg p-md osf-box-dk box-shadow-xl">Flat box, dark background with box-shadow-xl </div>
 
-                        <h4> OSF Box shadow in non-white background </h4>
+                        <h4> OSF box shadow in non-white background </h4>
                         <div class="example text-center p-lg box-shadow-xs" style="background-color: rgba(116, 116, 121, 0.76)">
                             <div class="m-b-lg p-md osf-box box-shadow-lg" style="width: 80%; margin-left: auto; margin-right: auto; height: 50px;">This is a special box.</div>
                             <div class="m-b-lg p-md osf-box box-shadow-xl" style="width: 80%; margin-left: auto; margin-right: auto; height: 50px;">This is a special box.</div>
@@ -1621,8 +1636,8 @@
 
                 <div class="row">
                     <div class="col-xs-9">
-                        <p> Use Bootstrap Form styles in all forms as it is. </p>
-                        <h4>Text Input</h4>
+                        <p> Use Bootstrap form styles in all forms as it is. </p>
+                        <h4>Text input</h4>
                         <ul>
                             <li>Add "noresize" class to remove the ability of the user to resize this box. </li>
                         </ul>
@@ -1634,13 +1649,13 @@
                         </code> </pre>
                     </div>
                     <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/css/#forms" class="btn btn-sm btn-default pull-right"> Bootstrap Documentation </a>
+                        <a href="http://getbootstrap.com/css/#forms" class="btn btn-sm btn-default pull-right"> Bootstrap documentation </a>
                         <a href="http://jsfiddle.net/vsk2gduo/2/" class="btn btn-sm btn-primary pull-right m-t-xl"> Edit in JsFiddle</a>
                     </div>
                 </div>
 
                 <div class="row">
-                     <h4 class="m-t-lg">Text Area</h4>
+                     <h4 class="m-t-lg">Text area</h4>
                         <ul>
                             <li>Text area input should be used for long form inputs. </li>
                             <li>Add "noresize" class to remove the ability of the user to resize this box. </li>
@@ -1768,7 +1783,7 @@
 &lt;/select&gt;
                         </code></pre>
                         <div class="m-t-md m-b-md p-md osf-box-lt">
-                            <h4 class="text-success"> Input and Form Tips:</h4>
+                            <h4 class="text-success"> Input and form tips:</h4>
                             <ul>
                                 <li> Input elements will generally fill in the container unless size is specified. Try to combine row and column wrappers to maintain responsiveness or use inline and horizontal form styles shown in the Bootstrap documentation.</li>
                                 <li> Avoid making form elements too wide, consider other options for layout if the window is too wide. </li>
@@ -1790,14 +1805,15 @@
                     <ul class="nav subnav" >
                         <li><a href="#container">Container</a></li>
                         <li><a href="#grid">Grid</a></li>
-                        <li><a href="#layout-helper">Layout Helper Classes</a></li>
+                        <li><a href="#layout-helper">Layout helper classes</a></li>
                     </ul>
                 </li>
 
                 <li>
                     <a href="#typography">Typography</a>
                     <ul class="nav subnav" >
-                        <li><a href="#font-weight">Font Weight Helpers</a></li>
+                        <li><a href="#font-weight">Font weight helpers</a></li>
+                        <li><a href="#wordBreak">Word Break</a></li>
                         <li><a href="#other-text">Other text options</a></li>
                         <li><a href="#inline">Inline edits</a></li>
                     </ul>
@@ -1805,7 +1821,7 @@
                 <li>
                     <a href="#colors">Colors</a>
                     <ul class="nav subnav" >
-                        <li><a href="#bootstrap-colors">Bootstrap Colors</a></li>
+                        <li><a href="#bootstrap-colors">Bootstrap colors</a></li>
                     </ul>
                 </li>
                 <li ><a href="#icons">Icons</a></li>
@@ -1819,8 +1835,8 @@
                         <li><a href="#alerts">Alerts</a></li>
                         <li><a href="#navbar">Navigation</a></li>
                         <li><a href="#tabs">Tabs</a></li>
-                        <li><a href="#loader">OSF Loader</a></li>
-                        <li><a href="#progress">Progress Bars</a></li>
+                        <li><a href="#loader">OSF loader</a></li>
+                        <li><a href="#progress">Progress bars</a></li>
                         <li><a href="#containers">Containers</a></li>
                         <li><a href="#inputs">Inputs</a></li>
 
