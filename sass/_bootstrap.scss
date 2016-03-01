@@ -15,6 +15,7 @@
 .panel {
   border-radius: 0;
 }
+
 .panel-heading {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -27,6 +28,16 @@
   display: inline-block;
   float: left;
   font-weight: 400;
+}
+
+// BWengren style changes
+.panel-default {
+  > .panel-heading {
+    background-color: $color-hover;
+  }
+  .panel-title, .panel-footer {
+    line-height: 1.8em;
+  }
 }
 
 /* FLAT MODALS */

@@ -350,6 +350,11 @@ input {
   float: left;
   font-weight: 400; }
 
+.panel-default > .panel-heading {
+  background-color: #E0EBF3; }
+.panel-default .panel-title, .panel-default .panel-footer {
+  line-height: 1.8em; }
+
 /* FLAT MODALS */
 .modal-footer {
   border-top: none; }
