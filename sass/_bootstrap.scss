@@ -36,6 +36,14 @@
     line-height: 1.8em;
   }
 }
+.panel-default {
+  > .panel-heading {
+    background-color: $lt-blue;
+    color: white;
+  }
+}
+
+// BWengren style changes
 
 /* FLAT MODALS */
 .modal-footer {

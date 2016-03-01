@@ -353,6 +353,10 @@ input {
 .panel .panel-title, .panel .panel-footer {
   line-height: 1.8em; }
 
+.panel-default > .panel-heading {
+  background-color: #84C4ED;
+  color: white; }
+
 /* FLAT MODALS */
 .modal-footer {
   border-top: none; }
