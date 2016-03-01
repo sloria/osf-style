@@ -35,6 +35,15 @@
   .panel-title, .panel-footer {
     line-height: 1.8em;
   }
+  #panel-trigger {
+    &:focus {
+      border:none;
+      outline:none;
+    }
+  }
+  .glyphicon {
+    line-height: 1.8em;
+  }
 }
 .panel-default {
   > .panel-heading {
@@ -43,7 +52,7 @@
   }
 }
 
-// BWengren style changes
+// end BWengren style changes
 
 /* FLAT MODALS */
 .modal-footer {
