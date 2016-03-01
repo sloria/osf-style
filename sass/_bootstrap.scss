@@ -31,10 +31,7 @@
 }
 
 // BWengren style changes
-.panel-default {
-  > .panel-heading {
-    background-color: $color-hover;
-  }
+.panel {
   .panel-title, .panel-footer {
     line-height: 1.8em;
   }
