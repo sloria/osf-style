@@ -350,18 +350,28 @@ input {
   float: left;
   font-weight: 400; }
 
-.panel .panel-title, .panel .panel-footer {
-  line-height: 1.8em; }
-.panel #panel-trigger:focus {
-  border: none;
-  outline: none; }
-.panel .glyphicon {
-  line-height: 1.8em; }
-
-.panel-default > .panel-heading {
-  background-color: #84C4ED;
-  color: white; }
-
+/*
+.panel {
+  .panel-title, .panel-footer {
+    line-height: 1.8em;
+  }
+  #panel-trigger {
+    &:focus {
+      border:none;
+      outline:none;
+    }
+  }
+  .glyphicon {
+    line-height: 1.8em;
+  }
+}
+.panel-default {
+  > .panel-heading {
+    background-color: $lt-blue;
+    color: white;
+  }
+}
+*/
 /* FLAT MODALS */
 .modal-footer {
   border-top: none; }
