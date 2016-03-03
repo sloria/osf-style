@@ -1,0 +1,47 @@
+@mixin hover() {
+	transition: background-color .3s;
+}
+
+.btn {
+	border:none;
+}
+
+.btn-primary {
+	@include hover();
+	background-color: $base-blue;
+	&:hover {
+		background-color: $dark-blue;
+	}
+}
+
+.btn-info {
+	@include hover();
+	background-color: $light-gray;
+	&:hover {
+		background-color: $base-gray;
+	}
+}
+
+.btn-success {
+	@include hover();
+	background-color: $light-green;
+	&:hover {
+		background-color: $base-green;
+	}
+} // @TODO Need to check for color of font if too light to read
+
+.btn-warning {
+	@include hover();
+	background-color: $light-yellow;
+	&:hover {
+		background-color: $base-yellow;
+	}
+}
+
+.btn-danger {
+	@include hover();
+	background-color: $base-orange;
+	&:hover {
+		background-color: $dark-orange;
+	}
+}

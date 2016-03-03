@@ -4,6 +4,9 @@
 /* Sizes */
 /* Defaults */
 /* Proposed color changes */
+.light-border {
+  border-color: #edefef; }
+
 /*
  * OSF Color Palette
  */
@@ -24,6 +27,44 @@
 
 .bg-color-grey {
   background-color: #333333; }
+
+.btn {
+  border: none; }
+
+.btn-primary {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #38B9EB; }
+  .btn-primary:hover {
+    background-color: #0496CE; }
+
+.btn-info {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #D1D6D8; }
+  .btn-info:hover {
+    background-color: #99A1A5; }
+
+.btn-success {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #84CEA0; }
+  .btn-success:hover {
+    background-color: #339959; }
+
+.btn-warning {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #FFD263; }
+  .btn-warning:hover {
+    background-color: #FFB600; }
+
+.btn-danger {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #FF7558; }
+  .btn-danger:hover {
+    background-color: #FF2C00; }
 
 /*
  * Layout and Sizing Classes
