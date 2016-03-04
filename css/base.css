@@ -3,6 +3,10 @@
  */
 /* Sizes */
 /* Defaults */
+/* Proposed color changes */
+.light-border {
+  border-color: white; }
+
 /*
  * OSF Color Palette
  */
@@ -27,6 +31,11 @@
 /*
  * Layout and Sizing Classes
  */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .container-full {
   width: 100%; }
 
@@ -320,6 +329,49 @@ p, a, span, em, td {
 /* Correct an issue where input elements under the above word break elements break their content too */
 input {
   word-break: normal !important; }
+
+.btn {
+  border: none; }
+  .btn:focus {
+    border: none;
+    outline: none; }
+
+.btn-primary {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #38B9EB; }
+  .btn-primary:hover {
+    background-color: #0496CE; }
+
+.btn-info {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #e7e7e7;
+  color: #616161; }
+  .btn-info:hover {
+    background-color: #D1D6D8;
+    color: #212121; }
+
+.btn-success {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #84CEA0; }
+  .btn-success:hover {
+    background-color: #339959; }
+
+.btn-warning {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #FFB600; }
+  .btn-warning:hover {
+    background-color: #FFA039; }
+
+.btn-danger {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #FF7558; }
+  .btn-danger:hover {
+    background-color: #FF2C00; }
 
 /*
  * Bootstrap Overrides
