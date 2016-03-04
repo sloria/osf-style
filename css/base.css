@@ -3,6 +3,10 @@
  */
 /* Sizes */
 /* Defaults */
+/* Proposed color changes */
+.light-border {
+  border-color: white; }
+
 /*
  * OSF Color Palette
  */
@@ -27,6 +31,13 @@
 /*
  * Layout and Sizing Classes
  */
+.clearfix:after, .panel .panel-heading:after,
+.panel .panel-footer:after,
+.panel .panel-body:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 .container-full {
   width: 100%; }
 
@@ -320,6 +331,95 @@ p, a, span, em, td {
 /* Correct an issue where input elements under the above word break elements break their content too */
 input {
   word-break: normal !important; }
+
+.btn {
+  border: none; }
+  .btn:focus {
+    border: none;
+    outline: none; }
+
+.btn-primary {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #38B9EB; }
+  .btn-primary:hover {
+    background-color: #0496CE; }
+
+.btn-info {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #e7e7e7;
+  color: #616161; }
+  .btn-info:hover {
+    background-color: #D1D6D8;
+    color: #212121; }
+
+.btn-success {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #84CEA0; }
+  .btn-success:hover {
+    background-color: #339959; }
+
+.btn-warning {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #FFB600; }
+  .btn-warning:hover {
+    background-color: #FFA039; }
+
+.btn-danger {
+  -webkit-transition: background-color .3s;
+          transition: background-color .3s;
+  background-color: #FF7558; }
+  .btn-danger:hover {
+    background-color: #FF2C00; }
+
+.panel {
+  border: none;
+  box-shadow: none; }
+  .panel .panel-heading,
+  .panel .panel-footer,
+  .panel .panel-body {
+    background-color: inherit;
+    padding: 0;
+    border: 0; }
+
+.panel {
+  border-width: 0 0 0 5px;
+  border-radius: none;
+  border-style: solid;
+  border-color: #ececec;
+  border-left-color: #A5B9C0;
+  padding: .375em .875em; }
+
+.panel-title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: #0496CE;
+  line-height: 1.5em; }
+
+.panel-success {
+  border-left-color: #84CEA0; }
+  .panel-success .panel-title {
+    color: #339959; }
+
+.panel-info {
+  border-left-color: #8DD8F5; }
+  .panel-info .panel-title {
+    color: #38B9EB; }
+
+.panel-danger {
+  border-left-color: #FF2C00; }
+  .panel-danger .panel-title {
+    color: #9B1B00; }
+
+.panel-body {
+  line-height: 1.75em;
+  border-top: 1px solid red; }
+
+.panel-footer {
+  color: #A5B9C0; }
 
 /*
  * Bootstrap Overrides

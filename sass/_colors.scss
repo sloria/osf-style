@@ -1,3 +1,35 @@
+/* Proposed color changes */
+$base-blue: 	#38B9EB;
+$light-blue:	#8DD8F5;
+$lightest-blue:	#CCE9F4;
+$dark-blue: 	#0496CE;
+$darkest-blue:	#0B445A;
+$gray-blue:		#A5B9C0;
+
+$base-green:	#339959;
+$light-green:	#84CEA0;
+$dark-green:	#09682C;
+
+$base-orange:	#FF7558;
+$light-orange:	#FFAC9A;
+$dark-orange:	#FF2C00;
+$darkest-orange:#9B1B00;
+
+$base-yellow:	#FFA039;
+$light-yellow:	#FFB600;
+
+$base-gray:		#D1D6D8;
+$light-gray:	#e7e7e7;
+$lightest-gray:	#F9F9F9;
+$darkest-gray:	#161819;
+$black:			#212121;
+$white:			#FFF;
+
+// Color modifications
+.light-border {
+	border-color: lighten($light-gray, 10%)
+}
+
 /*
  * OSF Color Palette
  */
@@ -8,6 +40,9 @@ $color-light: #EEEEEE;
 $color-alt: #C7FFC7;
 $color-select: #337AB7;
 $color-grey: #333333;
+
+// BWengren
+$lt-blue: #84C4ED;
 
 .bg-color-blue {
   background-color: $color-blue;

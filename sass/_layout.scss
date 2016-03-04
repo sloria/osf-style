@@ -2,6 +2,15 @@
 /*
  * Layout and Sizing Classes
  */
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
 .container-full {
   width: 100%;
 }

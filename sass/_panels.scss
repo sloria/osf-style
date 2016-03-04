@@ -1,0 +1,64 @@
+
+// Override all the bootstrap default
+.panel {
+  border:none;
+  box-shadow: none;
+  .panel-heading,
+  .panel-footer,
+  .panel-body {
+    @extend .clearfix;
+    background-color: inherit;
+    padding: 0;
+    border: 0;
+  }
+}
+
+.panel {
+  // border-width: 1px 1px 1px 3px;
+  border-width: 0 0 0 5px;
+  border-radius: none;
+  border-style: solid;
+  border-color: darken($lightest-gray, 5%);
+  border-left-color: $gray-blue;
+  padding: .375em .875em;
+}
+
+.panel-title {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  color: $dark-blue;
+  line-height: 1.5em;
+}
+
+.panel-success {
+  border-left-color: $light-green;
+  .panel-title {
+    color: $base-green;
+  }
+}
+
+.panel-info {
+  border-left-color: $light-blue;
+  .panel-title {
+    color: $base-blue;
+  }
+}
+
+.panel-danger {
+  border-left-color: $dark-orange;
+  .panel-title {
+    color: $darkest-orange;
+  }
+}
+
+.panel-body {
+  line-height: 1.75em;
+  border-top: 1px solid red;
+}
+.panel-footer {
+  color: $gray-blue;
+}
+
+
+
+
