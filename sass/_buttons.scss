@@ -4,6 +4,10 @@
 
 .btn {
 	border:none;
+	&:focus {
+		border: none;
+		outline: none;
+	}
 }
 
 .btn-primary {
@@ -17,8 +21,10 @@
 .btn-info {
 	@include hover();
 	background-color: $light-gray;
+	color: lighten($black, 25%);
 	&:hover {
 		background-color: $base-gray;
+		color: $black;
 	}
 }
 
@@ -28,7 +34,7 @@
 	&:hover {
 		background-color: $base-green;
 	}
-} // @TODO Need to check for color of font if too light to read
+}
 
 .btn-warning {
 	@include hover();
