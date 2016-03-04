@@ -393,14 +393,26 @@ input {
   border-left-color: #A5B9C0;
   padding: .375em .875em; }
 
-.panel-success {
-  border-left-color: #339959; }
-
 .panel-title {
   font-size: 1.5em;
   text-transform: uppercase;
   color: #0496CE;
   line-height: 1.5em; }
+
+.panel-success {
+  border-left-color: #84CEA0; }
+  .panel-success .panel-title {
+    color: #339959; }
+
+.panel-info {
+  border-left-color: #8DD8F5; }
+  .panel-info .panel-title {
+    color: #38B9EB; }
+
+.panel-danger {
+  border-left-color: #FF2C00; }
+  .panel-danger .panel-title {
+    color: #9B1B00; }
 
 .panel-body {
   line-height: 1.75em;

@@ -926,18 +926,18 @@
                 <hr />
                 <h3 id="panels"> Panels/widgets </h3>
                 <div class="row">
-                    <div class="col-xs-9">
-                        <p> Panels are boxes that have special styling for header, body and footer. They are often used as widgets. We use bootstrap style with minor overrides to flatten borders.  </p>
-                        <p> <b> Tip:</b> You can use the bootstrap colors for the panels by adding panel type such as "panel-info" as class. Footer is not going to change color. </p>
-                    </div>
-                    <div class="col-xs-3">
-                        <a href="http://getbootstrap.com/components/#style.html" class="btn btn-sm btn-default"> Bootstrap documentation </a>
+                    <div class="col-xs-12">
+                        <p> Panels are boxes that have special styling for header, body and footer. They are often used as widgets.</p>
+
+                        <p> <strong> Update:</strong> You NO LONGER need to add <code>.clearfix</code> to <code>.panel-heading</code> or <code>.panel-footer</code>. The functionality has been added via SCSS. You also do not need to go back and remove any existing instances of <code>.clearfix</code>.</p>
+
+                        <p> <strong> Deprecated:</strong> You should <strong>NO LONGER</strong> use the bootstrap colors for the panels by adding panel type such as "panel-info" as class.</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="panel panel-default">
+                        <div class="panel">
                             <div class="panel-heading">
                                 <div class="pull-right">
                                     <a href="/abrs9/wiki/" class="btn btn-sm btn-default"> Button </a>
@@ -945,9 +945,8 @@
                                 <h3 class="panel-title">Panel title</h3>
                             </div>
                             <div class="panel-body">
-                                <div class="break-word"><p>Cras mollis viverra lorem at pretium. Praesent fringilla lacus vitae auctor porttitor. Suspendisse auctor tincidunt ipsum, eget pulvinar ipsum fringilla eget. Nam blandit faucibus augue, at tincidunt dolor condimentum ut. Mauris tempor luctus sem ac commodo. Praesent elit eros, cursus a eleifend vel, luctus et ex. Duis nec augue ligula. Quisque semper tristique ligula. Donec massa neque, vehicula id lectus et, ullamcorper iaculis nibh. Donec fermentum, lacus nec hendrerit ultrices, quam nulla sodales sem, quis tempor mauris urna et magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit nunc enim, eget cursus tortor aliquet ac.</p>
-                                    <p>Praesent pulvinar leo a iaculis cursus. Nulla vitae bibendum purus, non venenatis eros. Etiam suscipit laoreet purus. Proin in varius elit. Morbi felis magna, posuere in ultrices vitae, commodo sit amet est. Nullam eget metus at ligula viverra suscipit. Nulla imperdiet molestie sapien, tincidunt scelerisque nunc rutrum quis.
-                                    </p>
+                                <div class="break-word">
+                                    <p>Cras mollis viverra lorem at pretium. Praesent fringilla lacus vitae auctor porttitor. Suspendisse auctor tincidunt ipsum, eget pulvinar ipsum fringilla eget. Nam blandit faucibus augue, at tincidunt dolor condimentum ut. Mauris tempor luctus sem ac commodo. Praesent elit eros, cursus a eleifend vel, luctus et ex. Duis nec augue ligula. Quisque semper tristique ligula. Donec massa neque, vehicula id lectus et, ullamcorper iaculis nibh. Donec fermentum, lacus nec hendrerit ultrices, quam nulla sodales sem, quis tempor mauris urna et magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas blandit nunc enim, eget cursus tortor aliquet ac.</p>
                                 </div>
                             </div>
                             <div class="panel-footer">
@@ -960,18 +959,46 @@
                             </div>
                         </div>
 
+                        <h4>Deprecated</h4>
+
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Panel title</h3>
+                            </div>
+                            <div class="panel-body">
+                                <code>&lt;div class="panel panel-info" ...</code>
+                            </div>
+                        </div>
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Panel title</h3>
+                            </div>
+                            <div class="panel-body">
+                                <code>&lt;div class="panel panel-success" ...</code>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-danger">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Panel title</h3>
+                            </div>
+                            <div class="panel-body">
+                                <code>&lt;div class="panel panel-danger" ...</code>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-sm-6">
                         <pre>
                             <code class="language-markup">
-&lt;div class="panel panel-default"&gt;
+&lt;div class="panel"&gt;
     &lt;div class="panel-heading"&gt;
-        &lt;h3 class="panel-title"&gt;Wiki&lt;/h3&gt;
         &lt;div class="pull-right"&gt;
             &lt;a href="/abrs9/wiki/" class="btn btn-sm btn-default"&gt;
                 Button
             &lt;/a&gt;
         &lt;/div&gt;
+        &lt;h3 class="panel-title"&gt;Wiki&lt;/h3&gt;
     &lt;/div&gt;
     &lt;div class="panel-body"&gt;
         &lt;div class="break-word"&gt;
@@ -979,7 +1006,7 @@
         Cras mollis viverra lorem at pretium. Praesent fringilla lacus vitae auctor porttitor. Suspendisse auctor tincidunt ip...
         &lt;/p&gt;
     &lt;/div&gt;
-    &lt;div class="panel-footer clearfix"&gt;
+    &lt;div class="panel-footer"&gt;
         Footer contents here.
         &lt;div class="pull-right"&gt;
             &lt;button class="btn btn-success"&gt;Save&lt;/button&gt;

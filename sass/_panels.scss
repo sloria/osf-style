@@ -22,15 +22,33 @@
   border-left-color: $gray-blue;
   padding: .375em .875em;
 }
-.panel-success {
-  border-left-color: $base-green;
-}
 
 .panel-title {
   font-size: 1.5em;
   text-transform: uppercase;
   color: $dark-blue;
   line-height: 1.5em;
+}
+
+.panel-success {
+  border-left-color: $light-green;
+  .panel-title {
+    color: $base-green;
+  }
+}
+
+.panel-info {
+  border-left-color: $light-blue;
+  .panel-title {
+    color: $base-blue;
+  }
+}
+
+.panel-danger {
+  border-left-color: $dark-orange;
+  .panel-title {
+    color: $darkest-orange;
+  }
 }
 
 .panel-body {
