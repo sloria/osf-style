@@ -15,6 +15,7 @@
 .panel {
   border-radius: 0;
 }
+
 .panel-heading {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -28,6 +29,31 @@
   float: left;
   font-weight: 400;
 }
+
+// BWengren style changes
+/*
+.panel {
+  .panel-title, .panel-footer {
+    line-height: 1.8em;
+  }
+  #panel-trigger {
+    &:focus {
+      border:none;
+      outline:none;
+    }
+  }
+  .glyphicon {
+    line-height: 1.8em;
+  }
+}
+.panel-default {
+  > .panel-heading {
+    background-color: $lt-blue;
+    color: white;
+  }
+}
+*/
+// end BWengren style changes
 
 /* FLAT MODALS */
 .modal-footer {

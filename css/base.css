@@ -350,6 +350,28 @@ input {
   float: left;
   font-weight: 400; }
 
+/*
+.panel {
+  .panel-title, .panel-footer {
+    line-height: 1.8em;
+  }
+  #panel-trigger {
+    &:focus {
+      border:none;
+      outline:none;
+    }
+  }
+  .glyphicon {
+    line-height: 1.8em;
+  }
+}
+.panel-default {
+  > .panel-heading {
+    background-color: $lt-blue;
+    color: white;
+  }
+}
+*/
 /* FLAT MODALS */
 .modal-footer {
   border-top: none; }
