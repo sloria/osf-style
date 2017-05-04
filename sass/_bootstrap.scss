@@ -437,7 +437,8 @@
         }
         &.auth-dropdown {
             top: 60px;
-            left: 22.5px;
+            right: -19px;
+            width: 160px;
         }
     }
 
@@ -464,15 +465,15 @@
 
     /* Overrides for signup button */
     #navbarScope .btn-top-signup {
-        padding: 4px 12px;
-        margin-top:5px;
+        padding: 4px 13px;
+        margin-top:3px;
         font-size: 15px;
     }
 
     /* Overrides for Sign in button */
     #navbarScope .btn-top-login {
-        padding: 2px 15px;
-        margin-top: 5px;
+        padding: 4px 17px;
+        margin-top: 3px;
         font-size: 15px;
     }
 
